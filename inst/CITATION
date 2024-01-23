@@ -1,0 +1,18 @@
+bibentry("Article",
+         title  = "{MissMech}: An {R} Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR)",
+         author = c(person("Mortaza", "Jamshidian"),
+                   person("Siavash", "Jalal"),
+                   person("Camden", "Jansen")),
+         journal= "Journal of Statistical Software",
+         year   = "2014",
+         volume = "56",
+         number = "6",
+         pages  = "1--31",
+         url    = "https://www.jstatsoft.org/v56/i06/",
+
+         textVersion  =
+  paste("Mortaza Jamshidian, Siavash Jalal, Camden Jansen (2014).",
+        "MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR).",
+        "Journal of Statistical Software, 56(6), 1-31.",
+        "URL https://www.jstatsoft.org/v56/i06/.")
+)
