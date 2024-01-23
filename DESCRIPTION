@@ -1,7 +1,7 @@
 Package: MissMech
 Type: Package
 Title: Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random
-Version: 1.0.3
+Version: 1.0.3.9000
 Authors@R: c(person(given = "Mortaza", family = "Jamshidian",
                     email = "mori@fullerton.edu", role = "aut"),
              person(given = "Siavash", family = "Jalal",
