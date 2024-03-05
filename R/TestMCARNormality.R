@@ -32,7 +32,7 @@
 #' "Dist.Free": Missing data are imputed nonparametrically using the method of Sirvastava and Dolatabadi (2009); 
 #' also see Jamshidian and Jalal (2010).
 #' 
-#' "normal": Missing data are imputed assuming that the data come from a multivariate normal distribution. The maximum 
+#' "Normal": Missing data are imputed assuming that the data come from a multivariate normal distribution. The maximum 
 #' likelihood estimate of the mean and covariance obtained from Mls is used for generating imputed values. 
 #' The imputed values are based on the conditional distribution of the missing variables given the observed variables; 
 #' see Jamshidian and Jalal (2010) for more details.
@@ -295,7 +295,7 @@ TestMCARNormality <- function(data, del.lesscases = 6, imputation.number = 1, me
         resid <- (ncomp / (ncomp - 1)) ^ .5 * 
           (compy - matrix(ybar, ncomp, p, byrow = TRUE))
       } else {
-        warning("There is not sufficient number of complete cases.\n  Dist.Free imputation requires a least 10 complete cases\n  or 2*number of variables, whichever is bigger.\n  imputation.method = normal will be used instead.\n")
+        warning('There is not sufficient number of complete cases.\n  Dist.Free imputation requires a least 10 complete cases\n  or 2*number of variables, whichever is bigger.\n  imputation.method = "Normal" will be used instead.\n')
         use.normal <- TRUE
       }
     }

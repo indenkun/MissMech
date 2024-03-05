@@ -16,7 +16,7 @@ Impute(data, mu = NA, sig = NA, imputation.method = "Normal", resid = NA)
 
 \item{sig}{The population covariance matrix used to impute the data. As a default the maximum likelihood estimates based on the observed data is used.}
 
-\item{imputation.method}{'normal' uses the normal imputation method.  'dist.free uses the the method. See Jamshidian and Jalal (2010) and Sirvastava and Dolatabadi (2009).}
+\item{imputation.method}{'Normal' uses the normal imputation method.  'Dist.free uses the the method. See Jamshidian and Jalal (2010) and Sirvastava and Dolatabadi (2009).}
 
 \item{resid}{User defined residual vector to be used in place of the residuals proposed by the Sirvastava and Dolatabadi (2009) method.}
 }

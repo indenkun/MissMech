@@ -37,7 +37,7 @@ will be run, and the default output follows the recommendation by Jamshidian and
 \item{imputation.method}{"Dist.Free": Missing data are imputed nonparametrically using the method of Sirvastava and Dolatabadi (2009); 
 also see Jamshidian and Jalal (2010).
 
-"normal": Missing data are imputed assuming that the data come from a multivariate normal distribution. The maximum 
+"Normal": Missing data are imputed assuming that the data come from a multivariate normal distribution. The maximum 
 likelihood estimate of the mean and covariance obtained from Mls is used for generating imputed values. 
 The imputed values are based on the conditional distribution of the missing variables given the observed variables; 
 see Jamshidian and Jalal (2010) for more details.}

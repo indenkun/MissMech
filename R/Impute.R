@@ -13,7 +13,7 @@
 #' @param data A matrix consisting of at least two columns. Values must be numerical with missing data indicated by NA.
 #' @param mu A vector, consisting of population means, used to impute the data. As a default the maximum likelihood estimates based on the observed data is used.
 #' @param sig The population covariance matrix used to impute the data. As a default the maximum likelihood estimates based on the observed data is used.
-#' @param imputation.method 'normal' uses the normal imputation method.  'dist.free uses the the method. See Jamshidian and Jalal (2010) and Sirvastava and Dolatabadi (2009).
+#' @param imputation.method 'Normal' uses the normal imputation method.  'Dist.free uses the the method. See Jamshidian and Jalal (2010) and Sirvastava and Dolatabadi (2009).
 #' @param resid User defined residual vector to be used in place of the residuals proposed by the Sirvastava and Dolatabadi (2009) method.
 #' 
 #' @details
